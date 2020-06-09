@@ -39,12 +39,14 @@
     </style>
 </head>
 <body>
-    <form action="">
+    <form>
         <h2>Validetion form</h2> 
-        <input type="text" id="email" value placeholder="insera um email..." autocapitalize="off">
-        <input type="text" id="senha" value placeholder="insera uma senha..." autocapitalize="off">
-        <button type="submit" onclick="validetion()">Autenticar</button>
+        <input type="text" id="email" value="" placeholder="insera um email..." autocapitalize="off">
+         <span id="rmail"></span>
+        <input type="text" id="pass" value="" placeholder="insera uma senha..." autocapitalize="off">
+        <span id="rpass"></span>
+        <button type="submit" onclick="auth()">Autenticar</button>
     </form>
-    <script src="validetion.js"></script>
+    <script src="auth.js"></script>
 </body>
 </html>
